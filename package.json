@@ -1,0 +1,24 @@
+{
+  "name": "cli-magic-8ball",
+  "version": "1.0.0",
+  "description": "magic 8 ball in your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusKyung/cli-magic-8ball.git"
+  },
+  "keywords": [
+    "magic8ball",
+    "fun",
+    "random"
+  ],
+  "author": "marcuskyung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusKyung/cli-magic-8ball/issues"
+  },
+  "homepage": "https://github.com/MarcusKyung/cli-magic-8ball#readme"
+}
