@@ -1,6 +1,6 @@
 {
   "name": "cli-magic-8ball",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "magic 8 ball in your terminal",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarcusKyung/cli-magic-8ball.git"
+  },
+  "bin": {
+    "magic8ball": "./index.js"
   },
   "keywords": [
     "magic8ball",

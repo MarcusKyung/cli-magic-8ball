@@ -1,8 +1,11 @@
 #!/usr/bin/env node
+const path = require('path');
+const dataFilePath = path.join(__dirname, 'data.json');
 const fs = require('fs');
 const readline = require('readline');
 
-const rawData = fs.readFileSync('data.json');
+
+const rawData = fs.readFileSync(dataFilePath);
 const data = JSON.parse(rawData);
 
 const rl = readline.createInterface({
@@ -17,7 +20,7 @@ function getRandomNumber() {
 
 function magicEightBall() {
   console.log("Welcome to the Magic Eight Ball!")
-  
+
   rl.question("Ask me anything: ", (question) => {
     const responses = data.responses;
     const randomResponse = responses[getRandomNumber()];
